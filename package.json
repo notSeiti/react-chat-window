@@ -36,12 +36,12 @@
     "react": "15.6.1",
     "react-dom": "15.6.1"
   },
-  "author": "kingofthestack",
-  "homepage": "https://kingofthestack.github.io/react-chat-window/",
+  "author": "notSeiti",
+  "homepage": "https://github.com/notSeiti/react-chat-window",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kingofthestack/react-chat-window.git"
+    "url": "git@github.com:notSeiti/react-chat-window.git"
   },
   "keywords": [
     "react-component"
