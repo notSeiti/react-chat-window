@@ -1,6 +1,6 @@
 {
   "name": "@not_seiti/react-chat-window",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "react-chat-window React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -26,7 +26,7 @@
     "socket.io-client": "2.0.3"
   },
   "peerDependencies": {
-    "react": "15.x"
+    "react": "^15.x"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
