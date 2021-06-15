@@ -107,13 +107,13 @@ class UserInput extends Component {
   _renderSendOrFileIcon() {
     if (this.state.inputHasText) {
       return (
-        <div className="sc-user-input--button">
+        <div className="sc-user-input--send-button">
           <SendIcon onClick={this._submitText.bind(this)} />
         </div>
       );
     }
     return (
-      <div className="sc-user-input--button">
+      <div className="sc-user-input--file-button">
         <FileIcon onClick={this._showFilePicker.bind(this)} />
         <input
           type="file"

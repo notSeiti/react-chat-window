@@ -53,6 +53,14 @@
   width: 40px;
 }
 
+.sc-user-input--file-button:first-of-type {
+  width: 40px;
+}
+
+.sc-user-input--send-button:first-of-type {
+  width: 40px;
+}
+
 .sc-user-input--button {
   width: 30px;
   height: 55px;
@@ -61,7 +69,31 @@
   justify-content: center;
 }
 
+.sc-user-input--file-button {
+  width: 30px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sc-user-input--send-button {
+  width: 30px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .sc-user-input--button button {
+  cursor: pointer;
+}
+
+.sc-user-input--file-button button {
+  cursor: pointer;
+}
+
+.sc-user-input--send-button button {
   cursor: pointer;
 }
 
